@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net7.0-android</TargetFrameworks>
+		<TargetFrameworks>net8.0-android</TargetFrameworks>
 		<OutputType>Exe</OutputType>
 		<RootNamespace>SelectedTabColorBug</RootNamespace>
 		<UseMaui>true</UseMaui>
@@ -42,6 +42,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.0-rc.2.9511" />
 	</ItemGroup>
 
 	<ItemGroup>
